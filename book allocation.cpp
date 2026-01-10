@@ -45,7 +45,7 @@ int bookallocation(int arr[] , int n,int k){
 	   
 }}
 int main() {
-	int arr[]={12,34,67,98};
+	int arr[]={12,34,67,87};
 	int n = 4 ;
 	int k = 2;
 	cout<<bookallocation(arr,n,k); // output - 113 
