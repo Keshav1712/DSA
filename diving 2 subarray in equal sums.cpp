@@ -13,10 +13,10 @@ int divb(const vector<int> & arr){
     for (int i=0;i<n;i++){
         //first part sum 
         for(int j=0;j<=i;j++){
-            sum1=arr[j]; // sum of 1st subarray 
+            sum1+=arr[j]; // sum of 1st subarray 
         }
          for(int k=i+1;k<n;k++){
-            sum2=arr[k]; // sum of 1st subarray 
+            sum2+=arr[k]; // sum of 1st subarray 
         }
         if(sum1==sum2){
             return 1;
