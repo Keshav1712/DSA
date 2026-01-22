@@ -32,7 +32,7 @@ int sum = INT_MIN;
 for(int i =0;i<n;i++){
 	prefix+=arr[i];
 	sum = max(sum,prefix);
-	if(prefix<0){   //handle -2 edge case like [4,-6,2,8] when 4+(-6) = -2  -2 +2 = 0   0+8=8 that is final answer but its wrong 
+	if(prefix<0){   //handle "-2" edge case like [4,-6,2,8] when 4+(-6) = -2  -2 +2 = 0   0+8=8 that is final answer but its wrong 
 		prefix=0;
 	}
 	
