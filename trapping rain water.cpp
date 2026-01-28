@@ -12,8 +12,6 @@ steps -
 
 Time complexity - O(n)
 Space complexity - O(1)  
-
-
 */
 int traptotal(int arr [], int n){
 	int maxright = arr[0] ;
