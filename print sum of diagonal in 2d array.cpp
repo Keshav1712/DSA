@@ -20,6 +20,16 @@
 		 	i++;
 		 	j--;
 		 }
+		 int frst =0;
+		 int sec =0;
+		 // another method 
+		 
+	 	for (int i =0;i<3;i++){
+		 	frst+=arr[i][i];
+		 sec +=arr[i][3-1-i];
+		 }
+		  cout<<"First diagonal sum "<<frst << endl;
+		 cout<<"Second diagonal sum "<<sec << endl;
 		 
 		 // print of all diagonal 
 		 cout<<"First diagonal sum "<<first << endl;
