@@ -3,6 +3,7 @@ using namespace std ;
 /*
  Reverse of a 2d array row wise 
  time complexity - o(ncube)
+ space complexity - O(n)
 
 
 */
