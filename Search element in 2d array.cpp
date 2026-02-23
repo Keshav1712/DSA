@@ -2,7 +2,7 @@
 using namespace std;
 // Time complexity - O(Ncube)
 int main (){
-int arr [4][3]={1,2,3,4,5,6,7,8,9,10,11,19};
+int arr [4][3]={1,2,3,4,5,6,7,8,9,10,11,20};
 int x = 4;
 
 for(int i =0;i<4;i++){
