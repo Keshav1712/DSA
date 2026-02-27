@@ -28,6 +28,7 @@ int main (){
 	// missing number 
 	for (int i = 0;i<n;i++){
 		if(arr[i]/n==0){
+			
 		cout<<i+1;
 		break;	
 		}}
