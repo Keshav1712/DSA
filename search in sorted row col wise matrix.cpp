@@ -10,7 +10,7 @@ Search in sorted row and colm wise array where all row and colm sorted but not e
 */
 
 int main (){
-	int arr[4][4]	={4,8,12,25,18,22,26,42,36,40,45,68,48,50,72,93};
+	int arr[4][4]	={4,8,12,25,18,22,26,42,36,40,45,68,48,50,72,99};
 	int n=4;
 	int target =68;
 	int i =0, j=n-1;
