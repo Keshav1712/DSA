@@ -43,7 +43,7 @@ int main(){
 		}
 	}
 		if(count>n/2){
-				cout<<"candidate winner "<<candidate<<endl ;
+				cout<<" winner candidate is :  "<<candidate<<endl ;
 			}
 		else{
 				return -1;
