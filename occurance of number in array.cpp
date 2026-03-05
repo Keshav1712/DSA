@@ -13,7 +13,7 @@ time complexity - O(n) space complexity - O(1)
 int main (){
 	int arr [8]={1,2,2,2,3,6,8,6};
 	int n =sizeof(arr)/sizeof(arr[0]);
-	
+	// decreaseing by one 
 	for (int i = 0;i<n;i++){
 		arr[i]--;
 	}
