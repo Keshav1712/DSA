@@ -8,6 +8,10 @@ int main (){
 	string s ;
 	cin>>s;
 	cout<<s;
-	cout << "Character at index 6: " << s.at(4) << endl;
+//	cout << "Character at index 6: " << s.at(4) << endl;
+	cout << "Using index: ";
+    for (int i = 0; i < s.size(); i++) {
+        cout <<s[i]<<endl;
+    }
 	return 0 ;
 }
