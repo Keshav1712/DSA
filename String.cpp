@@ -13,5 +13,10 @@ int main (){
     for (int i = 0; i < s.size(); i++) {
         cout <<s[i]<<endl;
     }
+     cout << "Using range-based for loop: ";
+    for (char ch :s) {
+        cout << ch ;
+    }
+    cout << endl;
 	return 0 ;
 }
