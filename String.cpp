@@ -4,11 +4,14 @@ using namespace std;
 
 int main (){
 	
-	
-	char arr[6];
-	cin>>arr;
-	
-	cout<<arr;
+	string s1 ="keshav";
+	string s2 = "kumar";
+	string s3= s1+s2;
+	cout<<s3<<endl;
+//	char arr[6];
+//	cin>>arr;
+//	
+//	cout<<arr;
 	// Creating String 
 //	string s = "Keshav";
 //
