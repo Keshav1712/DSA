@@ -4,9 +4,16 @@ using namespace std;
 
 int main (){
 	
+	string s ;
+	getline(cin,s);
+	cout<<s<<endl;
+	cout<<s.size()<<endl;
+	
+	
+	
 	string s1 ="keshav";
 	string s2 = "kumar";
-	string s3= s1+s2;
+	string s3= s1.append(s2);
 	cout<<s3<<endl;
 //	char arr[6];
 //	cin>>arr;
