@@ -32,7 +32,7 @@ int main() {
     // 1. Define your test strings
     string test1 = "helloworld";
     string test2 = "keshav";
-    string test3 = "no one";
+    string test3 = "no oner";
 
     // 2. Run the function and print the outputs
     cout << "Original: " << test1 << "\nSorted:   " << sortString(test1) << "\n\n";
