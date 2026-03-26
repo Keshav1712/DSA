@@ -2,9 +2,13 @@
 #include<vector>
 #include<string>
 using namespace std;
+/*
+sorting the sentence acc to last digit rearrange the word 
 
+
+*/
 int main(){
-    string s = "me1 my2 see3";  // fixed duplicate index
+    string s = "me1 my2 see3";  
     vector<string> ans(10);
     
     string temp;
@@ -36,7 +40,7 @@ int main(){
         temp += ans[i];
         temp += ' ';
     }
-
+// 
     temp.pop_back();
     cout << temp << endl;
 
