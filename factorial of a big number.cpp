@@ -4,7 +4,7 @@
 using namespace std;
 /*
 FActorail of a large number that cannot be handle buy int 
-
+GFG question 
 
 */
 class sol{
