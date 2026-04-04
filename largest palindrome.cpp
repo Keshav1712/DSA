@@ -12,7 +12,7 @@ Leetcode - 409 largest palindrome
 
 */
 int main (){
-	string s = "AaabbAd";
+	string s = "Aaaab";
 	
 	// storing frequency 
 	vector <int> lower(26,0);
