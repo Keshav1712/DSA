@@ -1,5 +1,11 @@
 #include <iostream>
 #include<string>
+/*
+String matching bruteforce approach 
+time complexity =- O(mn)
+s.c O(1)
+
+*/
 using namespace std;
 int match(string s , string a){
     int n = s.size();
