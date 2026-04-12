@@ -1,4 +1,4 @@
-#include<iostream>
+ #include<iostream>
 #include<vector>
 using namespace std;
 /*
@@ -30,7 +30,7 @@ class Solution {
             }
             else{
                 if(pre==0){
-                    lps[suff]==0;
+                    lps[suff]=0;
                     suff++;
                 }
                 else{
