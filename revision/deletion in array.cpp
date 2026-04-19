@@ -1,5 +1,6 @@
 #include<iostream>
 using namespace std;
+//deletion and shifting of an array
 
 int main (){
 	int a[] = {23,11,22,56,34};
