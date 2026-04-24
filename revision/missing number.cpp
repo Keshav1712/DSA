@@ -1,5 +1,11 @@
 #include<iostream>
 using namespace std;
+/*
+finding missing number in missing array - using average 
+
+*/
+
+
 int main (){
 	
 	int arr[]={1,2,4,5};
