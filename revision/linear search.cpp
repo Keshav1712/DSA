@@ -1,6 +1,6 @@
 #include<iostream>
 using namespace std;
-
+/*linear search */
 int main (){
 	int a[] = {23,11,22,56,34};
 	int n = sizeof(a)/sizeof(a[0]);
